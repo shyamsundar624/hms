@@ -1,0 +1,50 @@
+ng new hmsfrontend --no-standalone
+
+
+npm install bootstrap --save
+
+ng g c admindash --skip-tests
+
+ng g s patient --skip-tests
+
+ng g class patient --skip-tests
+
+ng g c appoinment --skip-tests
+
+ng g class appoinment --skip-tests
+
+ng g s appoinment --skip-tests
+
+ng g c create-appoinment --skip-tests
+
+ng g c home --skip-tests
+
+ng g c docdash --skip-tests
+
+
+ng g c create-patient --skip-tests
+
+ng g c medicinelist --skip-tests
+
+ng g s medicine --skip-tests
+
+ng g class medicine --skip-tests
+
+ng g c create-medicine --skip-tests
+
+ng g c update-patient --skip-tests
+
+ng g c view-patient --skip-tests
+
+ng g c update-medicine --skip-tests
+
+ng g c doclogin --skip-tests
+
+ng g s docauth --skip-tests
+
+ng g c adlogin --skip-tests
+
+ng g s adminauth --skip-tests
+
+ng g s adminauthguard --skip-tests
+
